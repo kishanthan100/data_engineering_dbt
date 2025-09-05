@@ -1,0 +1,24 @@
+kishan_dbt_project:
+  outputs:
+    dev:
+      catalog: dbt_catalog
+      host: dbc-81e098ab-f8a3.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/dbdfd04f1a7fc06b
+      schema: source
+      threads: 1
+      token: 
+
+      type: databricks
+    
+    prod:
+      catalog: dbt_catalog_prod
+      host: dbc-81e098ab-f8a3.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/dbdfd04f1a7fc06b
+      schema: source
+      threads: 1
+      token: 
+      type: databricks
+  target: dev
+
+
+    
